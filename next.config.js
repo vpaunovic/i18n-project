@@ -1,4 +1,16 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const { i18n } = require("./i18n");
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  redirects() {
+    return [
+      {
+        source: "/",
+        destination: `/${i18n.defaultLocale}`,
+        permanent: false,
+      },
+    ];
+  },
+};
+
+module.exports = nextConfig;

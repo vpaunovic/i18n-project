@@ -1,0 +1,15 @@
+{
+  "language_switcher": {
+    "label": "Switch language: "
+  },
+  "home": {
+    "h1_text": "Hello from Home page.",
+    "h3_text": "This is i18n project using Next.js native internalization.",
+    "p_text": "You can switch the language in Header inside dropdown."
+  },
+  "about": {
+    "h1_text": "Hello from About page.",
+    "h3_text": "This is i18n project using Next.js native internalization.",
+    "p_text": "You can switch the language in Header inside dropdown."
+  }
+}
