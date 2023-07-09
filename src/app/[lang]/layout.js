@@ -6,7 +6,7 @@ import { Col, Container, Nav, Row } from "react-bootstrap";
 import { getDictionary } from "../../../getDictionary";
 import Header from "../components/Header/Header";
 import LanguageSwitcher from "../components/LanguageSwitcher/LanguageSwitcher";
-import "./globals.css";
+import "./globals.scss";
 
 export default function RootLayout({ children, params: { lang } }) {
   const pathName = usePathname();
