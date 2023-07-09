@@ -4,6 +4,7 @@ import { useParams, usePathname } from "next/navigation";
 import { useState } from "react";
 import { Dropdown } from "react-bootstrap";
 import { i18n } from "../../../../i18n";
+import styles from "./LanguageSwitcher.module.scss";
 
 function LanguageSwitcher() {
   const pathName = usePathname();
@@ -24,7 +25,7 @@ function LanguageSwitcher() {
         {selected}
       </Dropdown.Toggle>
 
-      <Dropdown.Menu>
+      <Dropdown.Menu className={styles.dropdown_menu}>
         {i18n.locales?.map((locale, index) => (
           <Dropdown.Item
             key={index}
