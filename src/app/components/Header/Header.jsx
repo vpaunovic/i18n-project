@@ -15,7 +15,7 @@ function Header({ dict }) {
             as={Link}
             href={pathName === `/${lang}` ? `/${lang}/about` : `/${lang}`}
           >
-            {pathName === `/${lang}` ? "About" : "Home"}
+            {pathName === `/${lang}` ? dict?.links?.about : dict?.links?.home}
           </Nav.Link>
           <p className="mb-0 px-3">{dict?.language_switcher?.label}</p>
           <LanguageSwitcher />

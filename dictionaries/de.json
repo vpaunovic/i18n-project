@@ -1,14 +1,18 @@
 {
+  "links": {
+    "home": "Startseite",
+    "about": "Über uns"
+  },
   "language_switcher": {
     "label": "Sprache wechseln: "
   },
   "home": {
-    "h1_text": "Hallo von der Homepage.",
+    "h1_text": "Hallo von der Startseite.",
     "h3_text": "Dies ist ein i18n-Projekt, das die native Internalisierung von Next.js verwendet.",
     "p_text": "Sie können die Sprache im Dropdown-Menü „Kopfzeile“ ändern."
   },
   "about": {
-    "h1_text": "Hallo von der About-Seite.",
+    "h1_text": "Hallo von der Über uns Seite.",
     "h3_text": "Dies ist ein i18n-Projekt, das die native Internalisierung von Next.js verwendet.",
     "p_text": "Sie können die Sprache im Dropdown-Menü „Kopfzeile“ ändern."
   }
